@@ -30,6 +30,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/copsdaemon:system/bin/copsdaemon \
     $(LOCAL_PATH)/proprietary/bin/cspsa-server:system/bin/cspsa-server \
     $(LOCAL_PATH)/proprietary/bin/geomagneticd6x:system/bin/geomagneticd6x \
+    $(LOCAL_PATH)/proprietary/bin/gps.cer:system/bin/gps.cer \
+    $(LOCAL_PATH)/proprietary/bin/gpsd:system/bin/gpsd \
     $(LOCAL_PATH)/proprietary/bin/immvibed:system/bin/immvibed \
     $(LOCAL_PATH)/proprietary/bin/modem_log_relay:system/bin/modem_log_relay \
     $(LOCAL_PATH)/proprietary/bin/modem-supervisor:system/bin/modem-supervisor \
@@ -43,6 +45,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     $(LOCAL_PATH)/proprietary/etc/AGPS_CA.pem:system/etc/AGPS_CA.pem \
     $(LOCAL_PATH)/proprietary/etc/calib.dat:system/etc/calib.dat \
+    $(LOCAL_PATH)/proprietary/etc/gps.xml:system/etc/gps.xml \
     $(LOCAL_PATH)/proprietary/etc/LVVEFS_tuning_parameters/LVVEFS_Rx_Configuration.txt:system/etc/LVVEFS_tuning_parameters/LVVEFS_Rx_Configuration.txt \
     $(LOCAL_PATH)/proprietary/etc/LVVEFS_tuning_parameters/LVVEFS_Tx_Configuration.txt:system/etc/LVVEFS_tuning_parameters/LVVEFS_Tx_Configuration.txt \
     $(LOCAL_PATH)/proprietary/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF.txt:system/etc/LVVEFS_tuning_parameters/Rx_ControlParams_BTNRECOFF.txt \
@@ -127,7 +130,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/audio.primary.montblanc.so:system/lib/hw/audio.primary.montblanc.so \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
     $(LOCAL_PATH)/proprietary/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/gps.montblanc.so:system/lib/hw/gps.montblanc.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(LOCAL_PATH)/proprietary/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so \
     $(LOCAL_PATH)/proprietary/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
     $(LOCAL_PATH)/proprietary/lib/hw/lights.montblanc.so:system/lib/hw/lights.montblanc.so \

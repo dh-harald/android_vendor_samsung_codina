@@ -44,6 +44,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     $(LOCAL_PATH)/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     $(LOCAL_PATH)/proprietary/etc/AGPS_CA.pem:system/etc/AGPS_CA.pem \
+    $(LOCAL_PATH)/proprietary/etc/AT/manuf_id.cfg:system/etc/AT/manuf_id.cfg \
+    $(LOCAL_PATH)/proprietary/etc/AT/model_id.cfg:system/etc/AT/model_id.cfg \
+    $(LOCAL_PATH)/proprietary/etc/AT/system_id.cfg:system/etc/AT/system_id.cfg \
     $(LOCAL_PATH)/proprietary/etc/calib.dat:system/etc/calib.dat \
     $(LOCAL_PATH)/proprietary/etc/gps.xml:system/etc/gps.xml \
     $(LOCAL_PATH)/proprietary/etc/LVVEFS_tuning_parameters/LVVEFS_Rx_Configuration.txt:system/etc/LVVEFS_tuning_parameters/LVVEFS_Rx_Configuration.txt \

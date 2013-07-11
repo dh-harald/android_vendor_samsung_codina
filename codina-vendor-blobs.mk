@@ -193,7 +193,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
     $(LOCAL_PATH)/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
     $(LOCAL_PATH)/proprietary/lib/libspeech_proc_customer_plugin.so:system/lib/libspeech_proc_customer_plugin.so \
-    $(LOCAL_PATH)/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     $(LOCAL_PATH)/proprietary/lib/libste_adm.so:system/lib/libste_adm.so \
     $(LOCAL_PATH)/proprietary/lib/libste_audio_hwctrl.so:system/lib/libste_audio_hwctrl.so \
     $(LOCAL_PATH)/proprietary/lib/libstecom.so:system/lib/libstecom.so \

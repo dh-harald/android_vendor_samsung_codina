@@ -176,19 +176,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     $(LOCAL_PATH)/proprietary/lib/libshmnetlnk.so:system/lib/libshmnetlnk.so \
     $(LOCAL_PATH)/proprietary/lib/libsms_server.so:system/lib/libsms_server.so \
-    $(LOCAL_PATH)/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
-    $(LOCAL_PATH)/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
-    $(LOCAL_PATH)/proprietary/lib/libsomxac3d.so:system/lib/libsomxac3d.so \
-    $(LOCAL_PATH)/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
-    $(LOCAL_PATH)/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
-    $(LOCAL_PATH)/proprietary/lib/libsomxcore.so:system/lib/libsomxcore.so \
-    $(LOCAL_PATH)/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
-    $(LOCAL_PATH)/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
-    $(LOCAL_PATH)/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
-    $(LOCAL_PATH)/proprietary/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
-    $(LOCAL_PATH)/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
-    $(LOCAL_PATH)/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
-    $(LOCAL_PATH)/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
     $(LOCAL_PATH)/proprietary/lib/libspeech_proc_customer_plugin.so:system/lib/libspeech_proc_customer_plugin.so \
     $(LOCAL_PATH)/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     $(LOCAL_PATH)/proprietary/lib/libste_adm.so:system/lib/libste_adm.so \
